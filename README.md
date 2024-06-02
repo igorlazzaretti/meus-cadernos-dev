@@ -1,7 +1,7 @@
-## Typescript DevClub
+## Meus Cadernos do DevClub
 
 <div align="center">
-   <img width="210"src="./assets/images/mainlogo.png">
+   <img width="210"src="./assets/images/main-logo.png">
 </div>
 
 ## Sobre o Curso
@@ -19,7 +19,11 @@ Sem contar com as aulas liberadas constantemente como potencializador do seu apr
 ## Tecnologias Utilizadas
 
 <div align="center">
-  <img src="https://github.com/tandpfun/skill-icons/raw/main/icons/NodeJS-Dark.svg" title="NodeJS" alt="NodeJS" width="70" height="70"/>&nbsp;
+
+
+[![My Skills](https://skillicons.dev/icons?i=vscode,html,css,javascript,react,nodejs,typescript,express,mongodb,docker,git,github,linkedin&perline=5)](https://skillicons.dev)
+
+  
 </div>
 
 ## Sobre o Aluno
