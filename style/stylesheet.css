@@ -25,23 +25,28 @@ body {
 
 
 .cover {
-    position: fixed;
     background-size: cover;
     background-position: center;
     object-fit: cover;
-    width: 99vw;
-    height: 120px;
-    border-radius: 8px 8px 0 0;
+    width: 100vw;
+    height: 140px;
+    margin: 0;
 }
 
 .content {
-    margin-top: 80px;
-    padding: 40px;
-    width: clamp(250px,80vw,3000px);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: clamp(250px,80vw,2000px);
 }
 .title{
     display: flex;
-    align-items: stretch;
+    align-items: start;
+    flex-direction: row;
+    width: 40vw;
 }
 .title-p{
     font-weight: 800;
@@ -57,6 +62,7 @@ body {
     cursor: pointer;
     text-align: center;
     margin-right: 20px;
+    margin-left: -20px;
 }
 
 .toggle-button:hover {
@@ -64,8 +70,21 @@ body {
 }
 
 .toggle-content {
-    display: none;
-    margin-top: 20px;
+    margin-top: 3px;
+    margin-left: 20vw;
     border-left: 4px solid #2f3437;
-    padding-left: 16px;
+    padding-left: 0px;
+    width: clamp(250px,70vw,3000px);
+}
+
+.img-loading{
+    margin-top: 5vw;
+    width: 30vw;
+}
+.img:hover{
+    transform: scale(1.04);
+}
+.img-vertical{
+    width: 400px;
+    height: 600px;
 }

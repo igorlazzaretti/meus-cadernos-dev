@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,24 +9,74 @@
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 
 </head>
-<body>
 
-        <div class="cover"> <img class="cover" src="./assets/images/html.png" alt="">
+<body>
+    <div id="content" style="display: none">
+
+        <div class="cover"> <img class="cover" src="./assets/images/bannerlogofullstack.png" alt="">
         </div>
         <div class="content">
-            <h1>Meus Cadernos</h1>
+            <h1>Meus Cadernos DevClub</h1>
+            <!-- HTML -->
             <div class="title">
-            <button class="toggle-button">Mostrar</button>
-            <p class="title-p">oi</p> </div>
-            <div class="toggle-content">
-                <p> Textoooooooo  </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptas esse, magnam facere id aliquid eveniet dolor alias! Dolores animi numquam sint beatae dicta voluptates ea doloremque molestiae possimus unde!</p>
+                <button class="toggle-button">Mostrar</button>
+                <p class="title-p">HTML</p>
             </div>
+            <div class="toggle-content" style="display:none">
+                <p> HTML <a href="https://aulas.devclub.com.br/m/courses?showcase=1">Link para a Aula</a></p>
+                <a href="./html.html"><img class="img img-vertical" src="./assets/images/html.png" alt=""></a>
+            </div>
+            <!-- CSS -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <p class="title-p">CSS</p>
+            </div>
+            <div class="toggle-content" style="display:none">
+                <p> CSS <a href="https://aulas.devclub.com.br/m/courses?showcase=1">Link para a Aula </a></p>
+                <a href="./css.html"><img class="img img-vertical" src="./assets/images/css.png" alt=""></a>
+            </div>
+            <!-- Javascript -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <p class="title-p">Javascript</p>
+            </div>
+            <div class="toggle-content" style="display:none">
+                <p> Javascript <a href="https://aulas.devclub.com.br/m/courses?showcase=1">Link para a Aula </a></p>
+                <a href="./javascript.html"><img class="img img-vertical" src="./assets/images/javascript.webp"
+                        alt=""></a>
+            </div>
+            <!-- GIT -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <p class="title-p">Git</p>
+            </div>
+            <div class="toggle-content" style="display:none">
+                <p> Git <a href="https://aulas.devclub.com.br/m/courses?showcase=1">Link para a Aula </a></p>
+                <a href="./javascript.html"><img class="img img-vertical" src="./assets/images/gitgithub.webp" alt=""></a>
+            </div>
+            <!-- React -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <p class="title-p">React</p>
+            </div>
+            <div class="toggle-content" style="display:none">
+                <p> React <a href="https://aulas.devclub.com.br/m/courses?showcase=1">Link para a Aula </a></p>
+                <a href="./javascript.html"><img class="img img-vertical" src="./assets/images/react.webp" alt=""></a>
+            </div>
+
         </div>
 
+
+    </div>
+    <div id="loading" style="display: block">
+        <img class="img-loading" src="./assets/images/main-logo.png" alt="">
+    </div>
     <script src="./script/script.js"></script>
 </body>
+
 </html>
