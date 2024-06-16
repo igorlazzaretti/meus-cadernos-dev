@@ -11,6 +11,8 @@
     }
 }
 
+/* Barra Horizontal */
+
 body {
     font-family: var(--main-font);
     background-color: var(--main-background);
@@ -21,7 +23,10 @@ body {
     align-items: flex-start;
     min-height: 100vh;
     color: var(--main-font-color);
+    overflow-x: hidden !important;
+    scrollbar-width: thin;
 }
+
 
 
 .cover {
