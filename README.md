@@ -1,20 +1,8 @@
-## Meus Cadernos do DevClub
+## Meus Cadernos Dev
 
 <div align="center">
-   <img width="210"src="./assets/images/main-logo.png">
+   <img width="310"src="./assets/images/index-images/mainLoadingBanner.webp">
 </div>
-
-## Sobre o Curso
-
-A Formação Devclub é a formação mais completa de programação que você já viu, uma vez que você aprende do zero ao avançado para em menos de 06 meses estar atuando como um programador full stack.
-
-A Formação possui mais de 35 módulos e entre eles aulas completas de HTML, CSS, Javascript, Node, Banco de dados, React e muito mais!
-
-Sem contar com as aulas liberadas constantemente como potencializador do seu aprendizado.
-
-<div align="center">
-
-<img  width="210" src="./assets/images/readme/devclubico.png"> </div>
 
 ## Tecnologias Utilizadas
 
