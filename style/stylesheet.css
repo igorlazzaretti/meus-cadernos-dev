@@ -45,7 +45,9 @@ body {
     align-items: center;
     justify-content: center;
     padding: 10px;
+
     width: clamp(250px,80vw,2000px);
+    
 }
 .main-title{
     width: 40vw;
