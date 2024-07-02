@@ -96,6 +96,7 @@
                 <p>Agora para testar quais dados foram use</p>
                 <p><code>git config --list</code></p>
                 <p>Agora temos esses dados no GIT, Então faça login no User Sync com Github</p>
+                <img src="../images/git/1.png" alt="">
             </div>
 
             <!-- Change Here -->
@@ -106,10 +107,92 @@
             </div>
             <div class="toggle-content" style="display:none">
                 <!-- Main Content-->
-                <h3>Git Add ou o + no VSCode</h3>
-                
+                <h3>Git Add ou o + no VSCode (Envio para Stage)</h3>
+                <p>O comando git add é usado para adicionar mudanças no seu repositório local à área de stage
+                    (preparação) em um repositório Git. A área de stage é onde você reúne todas as mudanças que deseja
+                    incluir no próximo commit.</p>
+                <p>Pode-se adicionar um arquivo específico</p>
+                <p><code>git add nome_do_arquivo                    </code></p>
+                <p>Ou adicionar todos os alterados assim:</p>
+                <p><code>git add .</code></p>
+                <p>Ou podemos add todas as mudanças e inclusive arquivos deletados usando</p>
+                <p><code>git add -A    </code></p>
+                <hr>
+                <h3>Git Commit</h3>
+                <p>Podemos commitar assim:</p>
+                <p><code>git commit</code></p>
+                <p>Ao usar apenas git commit, o Git abrirá o editor de texto padrão configurado para que você possa
+                    digitar a mensagem de commit.</p>
+                <p>Podemos escrever: <code>git commit -a -m "Sua mensagem de commit aqui"           </code></p>
+                <p>A flag -a instrui o Git a automaticamente adicionar todos os arquivos modificados e deletados à área
+                    de stage antes de criar o commit. Note que novos arquivos (não rastreados) não são incluídos
+                    automaticamente e ainda precisam ser adicionados manualmente usando git add.</p>
+                <p><code>git commit -m "Assunto" -m "Descrição..."</code></p>
+                <p>Para termos maior profissionalismo ainda pode-se add uma Descrição</p>
+                <hr>
+                <h3>Extensões</h3>
+                <p>Git Lens e Git Graph</p>
+            </div>
+
+            <!-- Change Here -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <!-- SubTitle -->
+                <p class="title-p">git push (Empurrar)</p>
+            </div>
+            <div class="toggle-content" style="display:none">
+                <!-- Main Content-->
+                <p>Podemos clicar no Botão Publish Branch que é equivalente ao git push</p>
+                <p>Assim ele envia para o Github a branch com a qual estamos trabalhando</p>
+                <p>Como ver qual branch estamos? git status</p>
+                <p>A primeira vez demora mais, escolhemos o nome do Repositório e conferimos no site github.com</p>
+            </div>
+
+
+            <!-- Change Here -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <!-- SubTitle -->
+                <p class="title-p">git pull (Puxar)</p>
+            </div>
+            <div class="toggle-content" style="display:none">
+                <!-- Main Content-->
+                <p>Pelo source controll -> clicar nos 3 pontinhos e pull</p>
+                <p>Ou usar o codigo</p>
+                <p><code>git pull</code></p>
+                <p>Lembrando que já devemos ter clonado o repositorio remoto</p>
+            </div>
+
+
+            <!-- Change Here -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <!-- SubTitle -->
+                <p class="title-p">git clone</p>
+            </div>
+            <div class="toggle-content" style="display:none">
+                <!-- Main Content-->
 
             </div>
+
+            <!-- Change Here -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <!-- SubTitle -->
+                <p class="title-p">git init</p>
+            </div>
+            <div class="toggle-content" style="display:none">
+                <!-- Main Content-->
+                <p>Este comando deve ser executado no diretório que você deseja transformar em um repositório Git. Após
+                    a execução, o diretório se tornará um repositório Git, e você poderá começar a adicionar arquivos,
+                    fazer commits, etc.</p>
+                <p>Ele inicializa um repositório Git no diretório atual, permitindo que você comece a versionar seus
+                    arquivos. Esse comando cria um diretório oculto chamado .git, que contém todos os arquivos
+                    necessários para o controle de versão do Git.
+
+                </p>
+            </div>
+
             <!-- Change Here -->
             <div class="title">
                 <button class="toggle-button">Mostrar</button>
