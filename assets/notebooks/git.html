@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Cadernos - CSS</title>
+    <title>Meu Cadernos - Git</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../../style/stylesheet.css">
     <!-- Font -->
@@ -24,7 +24,7 @@
         <div class="content">
 
             <div class="main-title">
-                <h1>CSS</h1> <a href="../../index.html">
+                <h1>GIT e Github</h1> <a href="../../index.html">
                     <p>>Voltar</p>
                 </a>
             </div>
@@ -33,88 +33,83 @@
             <div class="title">
                 <button class="toggle-button">Mostrar</button>
                 <!-- SubTitle -->
-                <p class="title-p">Breve Resumo</p>
+                <p class="title-p">Breve Resumo Git</p>
             </div>
             <div class="toggle-content" style="display:none">
                 <!-- Main Content-->
-                <p>Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como
-                    HTML. O CSS separa o conteúdo da representação visual do site. CSS foi desenvolvido pelo W3C (World
-                    Wide Web Consortium) em 1996. A relação entre HTML e CSS é bem forte. Como o HTML é uma linguagem de
-                    marcação (o alicerce de um site) e o CSS é focado no estilo (toda a estética de um site), eles andam
-                    juntos.</p>
-                <p>Melhores práticas: crie uma pasta Style ou CSS dentro de Assets. Lá crie seu arquivo stylesheet.css
+                <p>
+                    ChatGPT
+                    O Git é um sistema de controle de versão distribuído amplamente utilizado para o desenvolvimento de
+                    software, conhecido por sua eficiência e flexibilidade. Criado por Linus Torvalds em 2005, Git
+                    permite que desenvolvedores acompanhem e gerenciem alterações no código-fonte ao longo do tempo,
+                    facilitando colaborações em equipe e o rastreamento preciso de históricos de alterações. Utilizando
+                    um modelo de ramificação leve e fusão simples, Git permite que múltiplas versões de um projeto sejam
+                    desenvolvidas simultaneamente, promovendo um fluxo de trabalho não linear e facilitando a
+                    experimentação e desenvolvimento paralelo. </p>
+            </div>
+
+            <!-- Change Here -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <!-- SubTitle -->
+                <p class="title-p">Instalar</p>
+            </div>
+            <div class="toggle-content" style="display:none">
+                <!-- Main Content-->
+                <p>Acesse este site! <a
+                        href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git">https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git</a>
                 </p>
             </div>
+            <!-- Change Here -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <!-- SubTitle -->
+                <p class="title-p">GitHub</p>
+            </div>
+            <div class="toggle-content" style="display:none">
+                <!-- Main Content-->
+                <p>GitHub é uma plataforma online baseada em Git, amplamente utilizada por desenvolvedores para
+                    hospedar, compartilhar e colaborar em projetos de software. Lançada em 2008, GitHub oferece
+                    funcionalidades avançadas além do controle de versão, como controle de acesso, gerenciamento de
+                    problemas (issues), pull requests (solicitações de alteração), integração contínua e hospedagem de
+                    páginas web. Com sua interface amigável e recursos sociais, GitHub facilita a colaboração global
+                    entre desenvolvedores, permitindo que equipes trabalhem de forma eficiente em projetos de código
+                    aberto e privados, promovendo transparência, revisão de código e aprimoramento contínuo de software.
+                </p>
+                <p>Crie uma conta <a href="https://github.com/">https://github.com/</a></p>
+            </div>
+
 
             <!-- Change Here -->
             <div class="title">
                 <button class="toggle-button">Mostrar</button>
                 <!-- SubTitle -->
-                <p class="title-p">Imports</p>
+                <p class="title-p">Como configurar o Github no VsCode</p>
             </div>
             <div class="toggle-content" style="display:none">
                 <!-- Main Content-->
-                <p>Podemos Importar configurações, como, por exemplo, meu arquivo css para "resetar" nossa folha de
-                    estilos:</p>
-                <img src="../images/css/4.png" alt=""><p><code></code></p>
-            </div>
-            <!-- Change Here -->
-            <div class="title">
-                <button class="toggle-button">Mostrar</button>
-                <!-- SubTitle -->
-                <p class="title-p">Seletores</p>
-            </div>
-            <div class="toggle-content" style="display:none">
-                <!-- Main Content-->
-                <p> * {} => Universal</p>
-                <p> .classe {} => Classe</p>
-                <p> #id {} => id</p>
-                <p> e {} => A todos os e(elementos) </p>
-                <p>e f {} => A todo f(filho) que está contido em e</p>
-                <p>e > f {} => A todo f(filho) que é descendente direto de e</p>
-                <p>e + a {} => A todo a(adjacente) que está logo em seguida de e</p>
+                <p>Abra o terminal no VSCode, se for windows escolha o terminal Git Bash</p>
+                <p>Digite:</p>
+                <p><code>git config --global user.email (seu-email)</code></p>
+                <p>Sem erros - está OK</p>
+                <p><code>git config --global user.name (seu-username)</code></p>
+                <p>Agora para testar quais dados foram use</p>
+                <p><code>git config --list</code></p>
+                <p>Agora temos esses dados no GIT, Então faça login no User Sync com Github</p>
             </div>
 
             <!-- Change Here -->
             <div class="title">
                 <button class="toggle-button">Mostrar</button>
                 <!-- SubTitle -->
-                <p class="title-p">Root para Cores</p>
+                <p class="title-p">Primeiros Comandos</p>
             </div>
             <div class="toggle-content" style="display:none">
                 <!-- Main Content-->
-                <img src="../images/css/2.png" alt="">
-<p>Após usar var(e o nome da cor definida no root)</p>
-            </div>
-            <!-- Change Here -->
-            <div class="title">
-                <button class="toggle-button">Mostrar</button>
-                <!-- SubTitle -->
-                <p class="title-p">Light e Dark Mode</p>
-            </div>
-            <div class="toggle-content" style="display:none">
-                <!-- Main Content-->
-                <p>Da uma conferida nesse meu rpositório aqui!</p>
-                <p><a href="https://igorlazzaretti.github.io/dark-theme-onlycss/">Dark and Light Mode Deploy</a></p>
-                <img src="../images/css/1.png" alt="">
-            </div>
-            <!-- Change Here -->
-            <div class="title">
-                <button class="toggle-button">Mostrar</button>
-                <!-- SubTitle -->
-                <p class="title-p">Medidas</p>
-            </div>
-            <div class="toggle-content" style="display:none">
-                <!-- Main Content-->
-<h3>Clamp</h3>
-<p>Use clamp assim para images, figures, font-size</p>
-<p>
-Ela é um valor minimo + valor relativo +  valor máximo, assim:</p>
-
-<img src="../images/css/3.png" alt="">
+                <h3>Git Add ou o + no VSCode</h3>
+                
 
             </div>
-
             <!-- Change Here -->
             <div class="title">
                 <button class="toggle-button">Mostrar</button>
