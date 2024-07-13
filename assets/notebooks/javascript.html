@@ -77,10 +77,12 @@
                 <h4>var, let, const</h4>
                 <p>var: Usado na versão mais antiga de JavaScript, tem escopo global ou de função.
                 </p>
-<p>let: Introduzido no ES6 (ECMAScript 2015), tem escopo de bloco, o que significa que só é acessível dentro do bloco em que foi declarado.</p>
-<p>const: Também introduzido no ES6, é usado para declarar variáveis cujos valores não podem ser alterados depois de definidos. Assim como let, tem escopo de bloco.</p>
-<p>Dicas Rodolfo, var não usa mais. Usa sempre const, se precisar mudar seu info, usa então let.</p>
-</div>
+                <p>let: Introduzido no ES6 (ECMAScript 2015), tem escopo de bloco, o que significa que só é acessível
+                    dentro do bloco em que foi declarado.</p>
+                <p>const: Também introduzido no ES6, é usado para declarar variáveis cujos valores não podem ser
+                    alterados depois de definidos. Assim como let, tem escopo de bloco.</p>
+                <p>Dicas Rodolfo, var não usa mais. Usa sempre const, se precisar mudar seu info, usa então let.</p>
+            </div>
             <!-- Estrutura do Site Copiar -->
             <div class="title">
                 <button class="toggle-button">Mostrar</button>
@@ -92,23 +94,174 @@
                 <p>String é um texto e se usa entre aspas, assim</p>
                 <xmp>console.log('texto')</xmp>
                 <p>Aspas não se pode pular linha, apenas com `crase`.</p>
-                <p>A crase ou a Template Literals ou Template Strings liberar usar variável dentro de uma string assim</p>
-            <p><xmp>const MyString = `Minha idade é ${myAge}, to velho` </xmp></p>
+                <p>A crase ou a Template Literals ou Template Strings liberar usar variável dentro de uma string assim
+                </p>
+                <p>
+                    <xmp>const MyString = `Minha idade é ${myAge}, to velho` </xmp>
+                </p>
             </div>
 
-
+            <!-- Numeros -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <!-- SubTitle -->
+                <p class="title-p">Números, Boolean</p>
+            </div>
+            <div class="toggle-content" style="display:none">
+                <!-- Main Content-->
+                <h3>Números</h3>
+                <p>São separados não por vírgula e sim por ponto.</p>
+                <hr>
+                <h3>Boolean</h3>
+                <p> Os Computadores apenas entendem 0 e 1, no Js usamos True ou False </p>
+            </div>
 
             <!-- Estrutura do Site Copiar -->
             <div class="title">
                 <button class="toggle-button">Mostrar</button>
                 <!-- SubTitle -->
-                <p class="title-p">Subtítulo</p>
+                <p class="title-p">Objeto</p>
             </div>
             <div class="toggle-content" style="display:none">
                 <!-- Main Content-->
+                <p>Objeto é uma coleção de propriedades onde cada propriedade possui um valor.</p>
+                <img src="../images/javascript/1.png" alt="">
             </div>
 
-            <!-- Change Here -->
+            <!-- Estrutura do Site Copiar -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <!-- SubTitle -->
+                <p class="title-p">Null e Undefined</p>
+            </div>
+            <div class="toggle-content" style="display:none">
+                <!-- Main Content-->
+                <p>Null é quando um programador intencionalmente define nulo, ou em branco esperando info, por exemplo.
+                </p>
+                <p>Undefined quando ocorre algo errado. Uma variável declarada não possui qualquer valor.</p>
+            </div>
+
+            <!-- Estrutura do Site Bloco -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <!-- SubTitle -->
+                <p class="title-p">Array</p>
+            </div>
+            <div class="toggle-content" style="display:none"> <!-- Content-->
+                <p>Em JavaScript, um array é uma estrutura de dados que permite armazenar múltiplos valores em uma única
+                    variável. Os arrays podem conter qualquer tipo de dado, como números, strings, objetos e até outros
+                    arrays. Eles são ordenados, o que significa que cada elemento tem um índice numérico, começando do
+                    zero.</p>
+                <img src="../images/javascript/2.png" alt="">
+
+                <h3>Objetos no Array</h3>
+                <img src="../images/javascript/3.png" alt="">
+                <p>A posição inicial é a posição 0</p>
+
+            </div> <!-- Fim do Bloco -->
+            <!-- if else -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <!-- SubTitle -->
+                <p class="title-p">if else</p>
+            </div>
+            <div class="toggle-content" style="display:none"><!--Content-->
+                <img src="../images/javascript/4.png" alt="">
+                <p></p>
+            </div> <!-- Fim do Bloco -->
+            <!-- Estrutura do Site Bloco -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <!-- SubTitle -->
+                <p class="title-p">Funções</p>
+            </div>
+            <div class="toggle-content" style="display:none"><!--Content-->
+                <p>Um trecho de código que só é executado quando selecionado.</p>
+                <img src="../images/javascript/5.png" alt="">
+                <p>agora um exemplo</p>
+                <img src="../images/javascript/6.png" alt="">
+            </div> <!-- Fim do Bloco -->
+
+            <!-- Estrutura do Site Bloco -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <!-- SubTitle -->
+                <p class="title-p">DOM e como Manipulá-la</p>
+            </div>
+            <div class="toggle-content" style="display:none"><!--Content-->
+                <p>O DOM (Document Object Model) é uma interface de programação para documentos HTML e XML. Ele
+                    representa a estrutura do documento como uma árvore de nós, onde cada nó é um objeto que corresponde
+                    a uma parte do documento. Com o DOM, você pode manipular o conteúdo, estrutura e estilo de
+                    documentos web de forma programática usando JavaScript.</p>
+
+                <h2> Estrutura do DOM </h2>
+                <p> Documento: O objeto raiz que representa o documento completo.</p>
+                <p>Documento: O objeto raiz que representa o documento completo.</p>
+                <p>Elementos: Representam tags HTML e podem conter atributos, texto e outros elementos.</p>
+                <p>Atributos: Representam atributos HTML e são encontrados dentro das tags de elementos.</p>
+                <p>Texto: Nós que contêm o texto dentro de um elemento.</p>
+                <h4>Como Manipular</h4>
+                <img src="../images/javascript/7.png" alt="">
+            </div> <!-- Fim do Bloco -->
+
+            <!-- Estrutura do Site Bloco -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <!-- SubTitle -->
+                <p class="title-p">Eventos</p>
+            </div>
+            <div class="toggle-content" style="display:none"><!--Content-->
+                <h3>No HTML</h3>
+                <p> onClick="", onChange=""... </p>
+                <p>Dentro das "" vai uma função ex: onClick="cliquei()"</p>
+            </div> <!-- Fim do Bloco -->
+            <!-- Estrutura do Site Bloco -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <!-- SubTitle -->
+                <p class="title-p">add Event Listener</p>
+            </div>
+            <div class="toggle-content" style="display:none"><!--Content-->
+
+            </div> <!-- Fim do Bloco -->
+
+
+
+            <!-- Estrutura do Site Bloco -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <!-- SubTitle -->
+                <p class="title-p">JS Avançado: Json</p>
+            </div>
+            <div class="toggle-content" style="display:none"><!--Content-->
+                <h3>O que é JSON?</h3>
+                <p>Imagine que você tem um caderno onde anota informações sobre os personagens do universo Harry Potter.
+                    JSON é como uma forma de organizar essas informações em um caderno digital. Ele é usado para guardar
+                    e trocar dados entre diferentes programas, como um site e um servidor.</p>
+
+                    <p>Exemplo</p>
+                    <img src="../images/javascript/8.png" alt="">
+                    <h4>Objeto Javascript para JSON => stringify</h4>
+                    <img src="../images/javascript/9.png" alt="">
+                    <h4>JSON para Objeto Javascript => parse</h4>
+                    <img src="../images/javascript/10.png" alt="">
+
+
+
+
+            </div> <!-- Fim do Bloco -->
+
+            <!-- Estrutura do Site Bloco -->
+            <div class="title">
+                <button class="toggle-button">Mostrar</button>
+                <!-- SubTitle -->
+                <p class="title-p">Subtítulo</p>
+            </div>
+            <div class="toggle-content" style="display:none"><!--Content-->
+            </div> <!-- Fim do Bloco -->
+
+
+            <!-- Resumo do devClub -->
             <div class="title"> <button class="toggle-button">Mostrar</button>
                 <!-- SubTitle -->
                 <p class="title-p">Super Resumo do DevClub</p>
