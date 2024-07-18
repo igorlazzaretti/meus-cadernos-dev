@@ -1,11 +1,12 @@
 /* styles.css */
-:root{
-    --main-font:"Roboto Mono", monospace;
-    --main-background:#D4D4D4;
-    --main-font-color:#D4D1919194D4;
+:root {
+    --main-font: "Roboto Mono", monospace;
+    --main-background: #D4D4D4;
+    --main-font-color: #D4D1919194D4;
 }
-@media (prefers-color-scheme: dark){
-    :root{
+
+@media (prefers-color-scheme: dark) {
+    :root {
         --main-background: #191919;
         --main-font-color: #fff;
     }
@@ -46,21 +47,29 @@ body {
     justify-content: center;
     padding: 10px;
 
-    width: clamp(250px,80vw,2000px);
-    
+    width: clamp(250px, 80vw, 2000px);
+
 }
-.main-title{
+
+.main-title {
     width: 40vw;
     display: flex;
     flex-direction: row;
-    & h1{
+
+    & h1 {
         margin-right: 40vw;
     }
+
     align-items: center;
     border-bottom: 2px solid #abbeca;
 }
 
-.title{
+#divzona {
+    margin-left: 100px;
+
+}
+
+.title {
     display: flex;
     align-items: start;
     flex-direction: row;
@@ -68,7 +77,8 @@ body {
     align-items: center;
 
 }
-.title-p{
+
+.title-p {
     font-weight: 800;
 }
 
@@ -94,24 +104,32 @@ body {
     margin-left: 20vw;
     border-left: 4px solid #2f3437;
     padding-left: 6px;
-    width: clamp(250px,70vw,3000px);
+    width: clamp(250px, 70vw, 3000px);
 }
 
-.img-loading{
+.img-loading {
     margin-top: 5vw;
     width: 30vw;
 }
-.img:hover{
+
+.img:hover {
     transform: scale(1.04);
 }
-.img-vertical{
+
+.img-vertical {
     width: 400px;
     height: 600px;
 }
-.img-vertical-menor{
+
+.img-vertical-menor {
     width: 400px;
     height: 400px;
 }
 
-code{
-background-color:darkslategrey}
+.img-horizontal {
+    width: clamp(300px, 80vw, 1000px);
+}
+
+code {
+    background-color: darkslategrey
+}
