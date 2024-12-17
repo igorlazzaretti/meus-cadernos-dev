@@ -28,8 +28,6 @@ body {
     scrollbar-width: thin;
 }
 
-
-
 .cover {
     background-size: cover;
     background-position: center;
@@ -46,7 +44,6 @@ body {
     align-items: center;
     justify-content: center;
     padding: 10px;
-
     width: clamp(250px, 80vw, 2000px);
 
 }
@@ -109,7 +106,7 @@ body {
 
 .img-loading {
     margin-top: 5vw;
-    width: 30vw;
+    height: 70vh;
 }
 
 .img:hover {
