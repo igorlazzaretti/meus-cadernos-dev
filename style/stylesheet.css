@@ -12,8 +12,6 @@
     }
 }
 
-/* Barra Horizontal */
-
 body {
     font-family: var(--main-font);
     background-color: var(--main-background);
@@ -23,18 +21,31 @@ body {
     justify-content: center;
     align-items: flex-start;
     min-height: 100vh;
+    min-width: 99vw;
     color: var(--main-font-color);
     overflow-x: hidden !important;
     scrollbar-width: thin;
 }
 
+/* Banner Principal */
+
 .cover {
-    background-size: cover;
+    position: relative;
+    height: 20vh;
+    background-color: #000;
+    overflow: hidden;
+    background-image: url("../assets/images/index-images/main-banner.gif");
+    background-size: contain;
+    background-size: 30%;
     background-position: center;
-    object-fit: cover;
-    width: 100vw;
-    height: 140px;
-    margin: 0;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 900px) {
+    .cover {
+        background-size: 150%;
+    }
+    
 }
 
 .content {
@@ -45,8 +56,8 @@ body {
     justify-content: center;
     padding: 10px;
     width: clamp(250px, 80vw, 2000px);
-
 }
+
 
 .main-title {
     width: 40vw;
@@ -127,6 +138,12 @@ body {
     width: clamp(300px, 80vw, 1000px);
 }
 
-code {
-    background-color: darkslategrey
+/* Responsividade */
+@media screen and (max-width: 999px) {
+    #content {
+        width: 100vw;
+        height: 100vh;
+        /* retirar scroll x */
+        overflow-x: hidden;
+    }
 }
