@@ -3,6 +3,8 @@
     --main-font: "Roboto Mono", monospace;
     --main-background: #D4D4D4;
     --main-font-color: #D4D1919194D4;
+    --yellow:#f0db4f;
+    --purple:#393be5;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,7 +36,7 @@ body {
     height: 20vh;
     background-color: #000;
     overflow: hidden;
-    background-image: url("../assets/images/index-images/main-banner.gif");
+    background-image: url("../assets/images/index-images/banner.gif");
     background-size: contain;
     background-size: 30%;
     background-position: center;

@@ -6,13 +6,15 @@
     --hover-color: #e81cff; /* Cor ao passar o mouse */
     --ticker-bg: #222; /* Fundo da barra de notícias */
     --ticker-text: #fff; /* Cor do texto/ícone na barra de notícias */
+    --yellow:#f0db4f;
+    --purple:#393be5;
 }
 
 /* Footer Geral */
 .dynamic-footer {
     background-color: var(--dark-footer-bg);
     padding-top: 0; /* Remove padding superior para a barra de notícias */
-    border-top: 3px solid var(--accent-color);
+    border-top: 3px solid var(--yellow);
     box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.4);
     position: relative;
     overflow: hidden; /* Garante que a animação não vaze */
@@ -89,7 +91,7 @@
 }
 
 .social-links a {
-    color: var(--link-color);
+    color: var(--yellow);
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 400;
@@ -99,7 +101,7 @@
 }
 
 .social-links a:hover {
-    color: var(--hover-color);
+    color: var(--purple);
     transform: translateX(5px); /* Efeito de deslize */
 }
 
@@ -119,8 +121,8 @@
     object-fit: cover;
 
     margin-bottom: 10px;
-    border: 2px solid var(--accent-color);
-    box-shadow: 0 0 25px rgba(0, 219, 222, 0.6); 
+    border: 2px solid var(--yellow);
+    box-shadow: 0 0 25px var(--yellow);); 
     transition: transform 0.3s ease-in-out;
 }
 
