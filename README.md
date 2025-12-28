@@ -1,6 +1,7 @@
-<!-- 
+<!--
    :::Commit:::
 :books: Meus Cadernos Dev
+Commit Msg: Adicionado Git
 
  -->
 ## Meus Cadernos Dev
@@ -16,7 +17,7 @@
 
 [![My Skills](https://skillicons.dev/icons?i=vscode,html,css,javascript,react,nodejs,typescript,express,mongodb,docker,git,github,linkedin&perline=5)](https://skillicons.dev)
 
-  
+
 </div>
 
 ## Sobre o Aluno
@@ -31,8 +32,8 @@
 🎓 Análise de Sistemas - Cruzeiro do Sul <br>
 💻 Estudante FullStack: DevClub / Dio.me<br>
 👩🏻‍💻 Autor do Site: <a href="https://igorlazzaretti.com/">igorlazzaretti.com</a> <br>
-📚 Leitor e Estudante de Inglês <br> 
-🧙‍♂️ Fã de Harry Potter  <br> 
+📚 Leitor e Estudante de Inglês <br>
+🧙‍♂️ Fã de Harry Potter  <br>
 
 <div align="center" >
 <img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" title="Meu Site Portifólio" alt="Meu Site Portifólio" width="110" height="27"/>
@@ -51,5 +52,3 @@
 > "Acredite nos seus sonhos" <br> - Igor Dossin Lazzaretti
 
 </div>
-
-
